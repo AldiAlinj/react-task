@@ -1,4 +1,4 @@
-## Planet App Task Master
+## Task Master App
 
 ### Installation
 1.  git clone the project from the repository: https://github.com/AldiAlinj/react-task.git
