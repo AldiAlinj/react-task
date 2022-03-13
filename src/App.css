@@ -1,0 +1,124 @@
+.spinner{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 250px;
+}
+
+.h3, h3{
+  color: white;
+}
+
+#nameform{
+  background-color: #0972a6;
+  color: white;
+  border-color: #0972a6;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+
+#descriptionform{
+  background-color: #0972a6;
+  color: white;
+  border-color: #0972a6;
+  font-family: 'Manrope', sans-serif;
+  }
+
+textarea{
+  resize: none !important;
+}
+
+::placeholder { 
+  color: #b1acac !important;
+}
+
+.body{
+  height: 100%;
+    width: 100%;
+    background-color: #0972a6;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: 'Manrope', sans-serif;    
+
+}
+
+#form1{
+  background-color: #052033;
+  border-color: #0972a6;
+  color: white;
+  width : 100%;
+  font-family: 'Manrope', sans-serif;
+}
+
+#cardItem {
+  width: 100%;
+  color: white;
+  background-color: #0972a6;
+}
+
+ #btn {
+  background-color: #0972a6;
+
+ }
+ 
+ .badge{
+  font-size: 0.85em !important;
+  padding: 1.35em 0.65em !important;
+ }
+
+ h3{
+  font-family: 'Russo One', sans-serif;
+
+ }
+ 
+ .modal-content {
+  background: #052033 !important;
+  color: white;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  width: 100% !important;
+
+ }
+ .modal-header {
+   border-color: #052033 !important;
+ }
+
+ .modal-footer {
+   border-color: #052033 !important;
+   justify-content: center !important;
+ }
+
+ h5 {
+   padding-left: 15px ;
+   padding-top: 10px;
+ }
+
+ #addBtn {
+  width: 100%;
+  height: 50%;
+ 
+  font-family: 'Russo One', sans-serif;
+  background-color: #052033;
+  
+ }
+ .line{
+ color: white;
+ margin-top : 1px;
+ }
+ 
+ .container {
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ 
+.my-5{
+  margin-left: -10px;
+}
+::-ms-check {
+  border-radius: 50%;
+}
