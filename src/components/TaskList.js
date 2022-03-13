@@ -48,7 +48,6 @@ function TaskList() {
 
     localStorage.setItem("taskList", JSON.stringify(updatedTaskList));
     setTaskList(updatedTaskList);
-    setModal(false);
   };
 
   const handleSearch = (e) => {
