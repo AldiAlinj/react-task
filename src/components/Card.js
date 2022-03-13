@@ -10,7 +10,7 @@ function Card({ task, deleteTask, updateListArray }) {
 
   const updateTask = (task) => {
     updateListArray(task);
-    toggle();
+    setModal(false);
   };
 
   const handleDelete = (e, task) => {
