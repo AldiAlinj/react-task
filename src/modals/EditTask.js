@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 function EditTask({ modal, toggle, updateTask, task }) {
-  const [name, setName] = useState("");
-  const [description, setDescription] = useState("");
+  const [name, setName] = useState(task.name);
+  const [description, setDescription] = useState(task.description);
 
   const handleChangeName = (e) => {
     const { value } = e.target;
@@ -14,11 +14,6 @@ function EditTask({ modal, toggle, updateTask, task }) {
     const { value } = e.target;
     setDescription(value);
   };
-
-  useEffect(() => {
-    setName(task.name);
-    setDescription(task.description);
-  }, []);
 
   const handleUpdate = (e) => {
     e.preventDefault();
