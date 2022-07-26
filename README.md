@@ -11,6 +11,9 @@ Node version used : 16.14.0
 The project can be accessed in: http://localhost:3000/
 
 
+### Live Version
+[React Task Master](https://reacttaskmaster.netlify.app/)
+
 
 #### Candidate
 
